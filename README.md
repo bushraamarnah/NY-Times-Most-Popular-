@@ -1,16 +1,16 @@
 # ny_times_most_popular_articles
 
-A new Flutter project.
+An app that calls the NY times most popular articles API and renders it in a list with a detailed view.
 
-## Getting Started
+## Running the project
 
-This project is a starting point for a Flutter application.
+* Install Dart v2.19 by: `brew install dart@2.19`.
+* Install flutter by [downloading](https://docs.flutter.dev/get-started/install) it from the flutter website.
+* Run `flutter pub get` to install the dependencies.
+* Run `flutter run` to run the app.
 
-A few resources to get you started if this is your first Flutter project:
+If you have Android Studio which is recommended, you can just import the project, and run it using the run configuration that is part of the app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Running unit tests
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* You can run the tests using `flutter test`.
