@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const MyHomePage(title: 'NY Times Most Popular'),
-        // '/detailView':(context) => const MyHomePage(title: 'NY Times Most Popular'),
       },
     );
   }

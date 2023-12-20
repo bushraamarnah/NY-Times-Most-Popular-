@@ -28,7 +28,8 @@ class AppDrawerState extends State<AppDrawer> {
             shrinkWrap: true,
             children: <Widget>[
               ListTile(
-                leading: Icon(Icons.home, color: Theme.of(context).accentColor),
+                leading:
+                    Icon(Icons.home, color: Theme.of(context).primaryColor),
                 title: Text('Home'),
                 onTap: () {
                   Navigator.pushReplacementNamed(context, '/');
@@ -37,7 +38,7 @@ class AppDrawerState extends State<AppDrawer> {
               const Divider(),
               ListTile(
                 leading: Icon(Icons.g_translate,
-                    color: Theme.of(context).accentColor),
+                    color: Theme.of(context).primaryColor),
                 title: const Text('Languages'),
                 onTap: () {},
               ),
