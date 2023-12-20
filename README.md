@@ -4,7 +4,7 @@ An app that calls the NY times most popular articles API and renders it in a lis
 
 ## Running the project
 
-* Install Dart v2.19 by: `brew install dart@2.19`.
+* Install Dart v3.2.3 on Windows by: `choco install dart-sdk`.
 * Install flutter by [downloading](https://docs.flutter.dev/get-started/install) it from the flutter website.
 * Run `flutter pub get` to install the dependencies.
 * Run `flutter run` to run the app.
