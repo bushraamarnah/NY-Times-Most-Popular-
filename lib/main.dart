@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'NY Times Most Popular Articles',
       theme: ThemeData(
         primarySwatch: Colors.grey,
+        primaryColor: Colors.grey,
       ),
       initialRoute: '/',
       routes: {

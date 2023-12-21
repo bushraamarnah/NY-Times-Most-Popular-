@@ -65,12 +65,15 @@ class _DetailViewState extends State<DetailView> {
                           ),
                         ),
                       ),
-                      Chip(
-                        backgroundColor: Colors.grey.withOpacity(0.1),
-                        label: Text(
-                          mostPopularArticles.publishedDate,
-                          style: const TextStyle(
-                            fontSize: 20.0,
+                      Card(
+                        color: Colors.grey.shade200,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            mostPopularArticles.publishedDate,
+                            style: const TextStyle(
+                              fontSize: 20.0,
+                            ),
                           ),
                         ),
                       ),
@@ -97,12 +100,15 @@ class _DetailViewState extends State<DetailView> {
                       Container(
                         alignment: Alignment.bottomLeft,
                         padding: const EdgeInsets.only(left: 20, right: 20),
-                        child: Chip(
-                          backgroundColor: Colors.grey.withOpacity(0.2),
-                          label: Text(
-                            mostPopularArticles.byLine,
-                            style: const TextStyle(
-                              fontSize: 15,
+                        child: Card(
+                          color: Colors.grey.shade200,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              mostPopularArticles.byLine,
+                              style: const TextStyle(
+                                fontSize: 15,
+                              ),
                             ),
                           ),
                         ),
